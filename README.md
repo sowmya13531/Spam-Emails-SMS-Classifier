@@ -1,7 +1,7 @@
-## 📧 Spam Emails and SMS Classifier
+# 📧 Spam Emails and SMS Classifier
 A machine learning-based web application that classifies text messages and emails as Spam or Ham (Not Spam) using Natural Language Processing (NLP) techniques and a pre-trained classifier. Built with Python and Streamlit.
 
-# 📖 Overview
+## 📖 Overview
 This project applies Natural Language Processing (NLP) and machine learning techniques to detect spam in both emails and SMS messages. A trained model is used in a Streamlit web app that allows users to paste or type a message and classify it in real-time.
 
 # 🧰 Tech Stack

@@ -1,0 +1,7 @@
+streamlit
+pandas
+scikit-learn
+numpy
+nltk
+joblib
+nltk stopwords, tokenization

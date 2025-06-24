@@ -13,45 +13,47 @@ This project applies Natural Language Processing (NLP) and machine learning tech
 ->Pandas	Data manipulation and analysis
 ->Pickle	Save/load model and vectorizer
 
-# 📊 Dataset Used
-->SMS Spam Collection Dataset
-->Emails(CSV)
+## 🧠 NLP Techniques Used
 
-# 📁 Spam-Emails-SMS-Classifier
-│
-├── app.py                # Streamlit app UI
-├── model.pkl             # Trained ML model (e.g. Multinomial Naive Bayes)
-├── vectorizer.pkl        # Saved TF-IDF vectorizer
-├── train_model.py        # (Optional) model training script
-├── spam.csv              # Dataset (or another .csv file)
-├── requirements.txt      # List of required libraries
-└── README.md             # This file
+The following NLP techniques were applied to preprocess the data:
 
-# ⚙️ How It Works
-1.Load data
-Labeled SMS/email text with spam and ham categories.
-2.Preprocess text
-Remove punctuation, lowercase, remove stopwords, lemmatization.
-3.Convert text into TF-IDF vectors
-Represent text numerically using TfidfVectorizer.
-4.Train the classifier
-Commonly used: Multinomial Naive Bayes or Logistic Regression.
-5.Save model & vectorizer
+- 🔤 **Lowercasing**
+- ✂️ **Punctuation and Special Character Removal**
+- 🧹 **Stopword Removal**
+- 🔄 **Stemming** using PorterStemmer (NLTK)
+- 🔢 **TF-IDF Vectorization** to convert text to numeric format
+
+## ⚙️ How It Works
+
+1. **Data Loading** – Reads datasets (`spam.csv`, exception -`emails.csv`)
+2. **Data Preprocessing** – Applies text cleaning and NLP techniques
+3. **Feature Extraction** – Transforms text using TF-IDF
+4. **Model Training** – Uses classification algorithms like:
+   - Multinomial Naive Bayes
+   - Logistic Regression
+   - Binomial Regression 
+5. **Evaluation** – Accuracy, Confusion Matrix, Precision, Recall
+6. **Prediction** – Classifies new messages/emails
+6. **Save model & vectorizer**
 With pickle for reuse in the app.
-6.Build the web app
+7. **Build the web app**
 Using Streamlit for input, prediction, and display.
 
-# 💻 Installation
-Clone the repository
+## 📈 Results
 
-bash
-'''
-git clone https://github.com/sowmya13531/Spam-Emails-SMS-Classifier.git
-cd Spam-Emails-SMS-Classifier
-'''
+- Achieved **high accuracy** (>95%) on both Email and SMS datasets
+- Models are lightweight and efficient
+- Performs well even on small messages
 
-# 🚀 Usage
+---
 
+## 🛠 How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/sowmya13531/Spam-Emails-SMS-Classifier.git
+   cd Spam-Emails-SMS-Classifier
+   
 
 
 # 🖼️ Sample Output

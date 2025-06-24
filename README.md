@@ -4,6 +4,7 @@ A machine learning-based web application that classifies text messages and email
 ## 📖 Overview
 This project applies Natural Language Processing (NLP) and machine learning techniques to detect spam in both emails and SMS messages. A trained model is used in a Streamlit web app that allows users to paste or type a message and classify it in real-time.
 
+
 # 🧰 Tech Stack
 ## Technology	Description
 ->Python	Core programming language

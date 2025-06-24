@@ -77,19 +77,6 @@ pip install -r requirements.txt
 
 streamlit run your_app.py
 
-🚀 Running the App Locally
-
-To run the Streamlit Spam Classifier app on your local machine, follow these steps:
-
-🔧 Install Requirements
-
-Make sure you have Python installed (preferably 3.8 or later), then install the dependencies:
-
-pip install -r requirements.txt
-
-▶️ Run the App
-
-streamlit run app.py
 
 By default, this will open the app in your browser at http://localhost:8501
 

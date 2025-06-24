@@ -56,6 +56,51 @@ Using Streamlit for input, prediction, and display.
    cd Spam-Emails-SMS-Classifier
    
 
+# ✅ Steps to Run Streamlit App Locally:
+
+Running the App Locally
+To run the Streamlit Spam Classifier app on your local machine, follow these steps:
+🔧 Install Requirements
+Make sure you have Python installed (preferably 3.8 or later), then install the dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+1. Install Streamlit (if not installed):
+```bash
+   pip install streamlit
+```
+
+3. Navigate to project folder
+
+3. Run your Streamlit app:
+
+streamlit run your_app.py
+
+🚀 Running the App Locally
+
+To run the Streamlit Spam Classifier app on your local machine, follow these steps:
+
+🔧 Install Requirements
+
+Make sure you have Python installed (preferably 3.8 or later), then install the dependencies:
+
+pip install -r requirements.txt
+
+▶️ Run the App
+
+streamlit run app.py
+
+By default, this will open the app in your browser at http://localhost:8501
+
+
+📌 Tip:
+
+If you're using PyCharm, you can open the terminal inside PyCharm and run:
+
+streamlit run app.py
+
+Or right-click the app.py file and select "Run", if properly configured.
 
 # 🖼️ Sample Output
 Input: "Congratulations! You’ve won a $1000 Walmart gift card. Click here to claim."

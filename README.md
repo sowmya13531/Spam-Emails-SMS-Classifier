@@ -90,8 +90,16 @@ streamlit run app.py
 Or right-click the app.py file and select "Run", if properly configured.
 
 # 🖼️ Sample Output
-Input: "Congratulations! You’ve won a $1000 Walmart gift card. Click here to claim."
-Output: 🚫 This is Spam (96.23% confidence)
+## Input: 
+"Congratulations! You’ve won a $1000 Walmart gift card. Click here to claim."
+## Output: 
+🚫 This is Spam (96.23% confidence)
 
-Input: "Let’s meet for dinner tomorrow."
-Output: ✅ This is Ham (98.45% confidence)
+## Input: 
+"Let’s meet for dinner tomorrow."
+## Output: 
+✅ This is Ham (98.45% confidence)
+
+
+# Advancements:
+Can Deploy the app by running in private(local) IP address typically (home or office) . It can be used to access your app from the other devices on the same LAN/Wi-Fi.
